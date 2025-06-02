@@ -36,6 +36,7 @@ You can disable them by loading the VS Code settings provided in the settings fo
 3. **Auto-Typing Mode**:
    - Press any **lowercase letter key (a–z)** to advance the typing.
    - Other keys will behave normally.
+   - Use `Ctrl + Click` to jump to different parts in the plan.
    - Use `Ctrl + P` to toggle pause.
 
 4. **Create Lesson Plans**:
