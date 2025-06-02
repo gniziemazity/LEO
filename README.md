@@ -1,4 +1,4 @@
-# LEO: A Tool for Relaxed and Coherent Live Coding in the Classroom
+# LEO: Auto-typing Tool for Teaching Coding
 
 **LEO** is a live-coding assistant for windows that auto-types code from a lesson plan.
 
