@@ -15,6 +15,8 @@ class BlockManager:
     def __init__(self, root, title):
         self.root = root
         self.title=title
+        if not os.path.exists(".\\tmp"):
+            os.makedirs(".\\tmp")
         self.file_path = ".\\tmp\\cnt.txt"
         self.sync_file_path = ".\\tmp\\sync.txt"
         self.safe_file_path = ".\\tmp\\safe_cnt.txt"
