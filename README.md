@@ -69,7 +69,7 @@ You can disable them by loading the VS Code settings provided in the settings fo
 ---
 
 ## 📺 Demo
-The Twitter lesson plan (in the plans folder), was used to create this [Video tutorial](https://youtu.be/mwXRhFOxuSQ)
+The Twitter lesson plan (in the plans folder), was used to create this [video tutorial](https://youtu.be/mwXRhFOxuSQ).
 
 ---
 
@@ -78,7 +78,7 @@ The Twitter lesson plan (in the plans folder), was used to create this [Video tu
 - Add support for multiple IDEs or settings profiles.
 - Option to customize auto-typing trigger keys.
 - Improve the interface for broader usability.
-- Upgrade to AHK v2.0
+- Upgrade to use AHK v2.0
 
 ---
 
