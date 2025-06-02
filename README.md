@@ -10,9 +10,9 @@ Make sure to install the following **in order**:
 3. [`python_ahk` – A Python wrapper for AutoHotkey](https://pypi.org/project/ahk)
 
 ### 🔧 VS Code Setup (Optional)
-If you don't already have a preferred code editor, I recommend [VS Code](https://code.visualstudio.com)
+If you don't have a preferred code editor, I recommend [VS Code](https://code.visualstudio.com)
 It comes with advanced features that help experienced coders. These (may) interfere with LEO lesson plans.
-You can disable these features by loading the VS Code settings provided in the settings folder.
+You can disable them by loading the VS Code settings provided in the settings folder.
 
 **How to Apply Settings**:
 1. Open VS Code.
@@ -44,6 +44,12 @@ You can disable these features by loading the VS Code settings provided in the s
    - Apply some auto-formatting.
    - Use special functions: save, backspace, arrow keys, etc.
 
+<p align="left">
+  <img src="assets/leo.png" alt="Leo Screenshot" width="600"/>
+</p>
+
+**Tutorial Video**: To Appear...
+
 ---
 
 ## 📝 Notes
@@ -56,6 +62,9 @@ You can disable these features by loading the VS Code settings provided in the s
   - `Ctrl + Shift + Space`: Keep window on top.
   - `Ctrl + Shift + T`: Toggle window transparency.
 - `kill.bat` stops all AHK scripts (check system tray for active ones).
+<p align="left">
+  <img src="assets/tray.png" alt="Tray" width="300"/>
+</p>
 
 ---
 
