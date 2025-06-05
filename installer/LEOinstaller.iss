@@ -25,17 +25,17 @@ AppVersion=1.0
 WizardStyle=modern
 DefaultDirName={autopf}\LEO
 DefaultGroupName=RaduSoft
-LicenseFile=LICENSE
+LicenseFile=..\LICENSE
 
 
 [Files]    
-Source: "code\*"; DestDir: "{app}\code"
-Source: "plans\*"; DestDir: "{app}\plans"                               
-Source: "settings\*"; DestDir: "{app}\settings"
-Source: "tmp\*"; DestDir: "{commonappdata}\tmp"; Permissions: everyone-full; Attribs: 
-Source: "kill.bat"; DestDir: "{app}"
-Source: "start.bat"; DestDir: "{app}"
-Source: "screen.ahk"; DestDir: "{app}"
+Source: "..\code\*"; DestDir: "{app}\code"
+Source: "..\plans\*"; DestDir: "{app}\plans"                               
+Source: "..\settings\*"; DestDir: "{app}\settings"
+Source: "..\tmp\*"; DestDir: "{commonappdata}\tmp"; Permissions: everyone-full; Attribs: 
+Source: "..\kill.bat"; DestDir: "{app}"
+Source: "..\start.bat"; DestDir: "{app}"
+Source: "..\screen.ahk"; DestDir: "{app}"
 
 
 [Code]
