@@ -215,7 +215,9 @@ Filename: "{commonappdata}\LEO\python\python.exe"; Parameters: """{tmp}\get-pip.
 ; Copy modified python path settings so we can get pip working
 Filename: "cmd.EXE"; Parameters: "/C copy ""{tmp}\python312._pth"" ""{commonappdata}\LEO\python"""
 ; Off we go with ahk and others
-Filename: "{commonappdata}\LEO\python\Scripts\pip.exe"; Parameters: "install ahk setuptools tkinter-embed";
+Filename: "{commonappdata}\LEO\python\Scripts\pip.exe"; Parameters: "install ahk";
+Filename: "{commonappdata}\LEO\python\Scripts\pip.exe"; Parameters: "install setuptools";
+Filename: "{commonappdata}\LEO\python\Scripts\pip.exe"; Parameters: "install tkinter-embed";
 
 [UninstallDelete]
 Type: filesandordirs; Name: """{app}\code"""
