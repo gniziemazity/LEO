@@ -15,13 +15,17 @@ class BlockManager:
     def __init__(self, root, title):
         self.root = root
         self.title=title
-        if not os.path.exists(".\\tmp"):
-            os.makedirs(".\\tmp")
-        self.file_path = ".\\tmp\\cnt.txt"
-        self.sync_file_path = ".\\tmp\\sync.txt"
-        self.safe_file_path = ".\\tmp\\safe_cnt.txt"
-        self.load_file_path = ".\\tmp\\last_load.txt"
-        self.suspended_file_path = ".\\tmp\\suspended.txt"
+
+        self.tmp_prefix = os.getenv('LEO_PROGRAMDATA')
+        if not os.path.exists(self.tmp_prefix +".\\tmp"):
+            os.makedirs(self.tmp_prefix +".\\tmp")
+        
+        self.file_path = self.tmp_prefix + "\\tmp\\cnt.txt"
+        self.sync_file_path = self.tmp_prefix + "\\tmp\\sync.txt"
+        self.safe_file_path = self.tmp_prefix + "\\tmp\\safe_cnt.txt"
+        self.load_file_path = self.tmp_prefix + "\\tmp\\last_load.txt"
+        self.suspended_file_path = self.tmp_prefix + "\\tmp\\suspended.txt"
+        
         self.last_m_time = None
         self.last_m_suspended_time = None
         self.started = False
@@ -396,8 +400,8 @@ class BlockManager:
 
     def start(self):
 
-        chars_file_path = ".\\tmp\\chars.txt"
-        script_file_path = ".\\tmp\\script.ahk"
+        chars_file_path = self.tmp_prefix + ".\\tmp\\chars.txt"
+        script_file_path = self.tmp_prefix + ".\\tmp\\script.ahk"
 
         # GET TEXT IN CODE
 
