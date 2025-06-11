@@ -17,6 +17,8 @@ class BlockManager:
         self.title=title
 
         self.tmp_prefix = os.getenv('LEO_PROGRAMDATA')
+        if self.tmp_prefix is None:
+            self.tmp_prefix= ""
         if not os.path.exists(self.tmp_prefix +".\\tmp"):
             os.makedirs(self.tmp_prefix +".\\tmp")
         

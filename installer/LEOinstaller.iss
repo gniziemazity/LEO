@@ -36,6 +36,7 @@ Source: "..\tmp\*"; DestDir: "{commonappdata}\tmp"; Permissions: everyone-full; 
 Source: "..\kill.bat"; DestDir: "{app}"
 Source: "..\start.bat"; DestDir: "{app}"
 Source: "..\screen.ahk"; DestDir: "{app}"
+Source: "..\icon.png"; DestDir: "{app}"
 
 
 [Code]

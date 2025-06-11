@@ -11,6 +11,8 @@ root = Tk()
 root.geometry(f'600x800')
 root.title(title)
 root.resizable(False, True)
+icon = PhotoImage(file="icon.png")  # Replace with your image path
+root.iconphoto(False, icon)
 
 top_bar_container = Frame(root, padx=5, pady=5)
 top_bar_container.pack(fill=X)
