@@ -2,9 +2,10 @@
 
 **LEO** is a teaching assistant for windows that auto-types code from a lesson plan.
 
-### 📦 Dependencies
-Make sure to install the following **in order**:
+### 📦 Installation
+Quickest way to get LEO running is using the stable release.
 
+Alternatively, you can install the dependencies **in order**:
 1. [Python 3.12.2](https://www.python.org/downloads/release/python-3122)
 2. [AutoHotkey v1.1.37.02](https://www.autohotkey.com)
 3. [`python_ahk` – A Python wrapper for AutoHotkey](https://pypi.org/project/ahk)
@@ -31,7 +32,7 @@ You can disable them by loading the VS Code settings provided in the settings fo
 
 2. **Load a Lesson**:
    - In the interface, go to `Load`.
-   - Select `Twitter.json` from the `plans/` directory.
+   - Select `Demo.json` from the `plans/` directory.
 
 3. **Auto-Typing Mode**:
    - Press any **lowercase letter key (a–z)** to advance the typing.
@@ -59,6 +60,7 @@ You can disable them by loading the VS Code settings provided in the settings fo
 - 💻 Most of the code is written in Python.
 - ⚙️ Requires some understanding of AutoHotkey (AHK).
 - ❗Current version of AHK (v1.1.37.02) is now deprecated (still works at the moment)
+- To create a new installation binary, use [InnoSetup](https://jrsoftware.org/isinfo.php). Open LEOinstaller.iss, press compile on the toolbar, and it will create an exe file in the Output folder.
 - `screen.ahk` provides optional window management shortcuts:
   - `Ctrl + Shift + Space`: Keep window on top.
   - `Ctrl + Shift + T`: Toggle window transparency.
@@ -70,7 +72,7 @@ You can disable them by loading the VS Code settings provided in the settings fo
 ---
 
 ## 📺 Demo
-The Twitter lesson plan (in the plans folder), was used to create this [video tutorial](https://youtu.be/mwXRhFOxuSQ).
+The Demo lesson plan (in the plans folder), was used to create this [video tutorial](https://youtu.be/mwXRhFOxuSQ).
 
 ---
 
