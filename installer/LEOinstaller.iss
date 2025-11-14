@@ -59,10 +59,10 @@ function NextButtonClick(CurPageID: Integer): Boolean;
 begin
   if CurPageID = wpReady then begin
     DownloadPage.Clear;
-    DownloadPage.Add('https://github.com/gniziemazity/LEO/releases/download/v1.0.1-rc2/python-3.12.2-embed-amd64.zip', 'python.zip', '');
+    DownloadPage.Add('https://github.com/gniziemazity/LEO/releases/download/v1.0.1/python-3.12.2-embed-amd64.zip', 'python.zip', '');
     // since captcha prevents downloading directly from official site
-    DownloadPage.Add('https://github.com/gniziemazity/LEO/releases/download/v1.0.1-rc2/AutoHotkey_1.1.37.02.zip', 'autohotkey.zip', '');
-    DownloadPage.Add('https://github.com/gniziemazity/LEO/releases/download/v1.0.1-rc2/get-pip.py','get-pip.py','');
+    DownloadPage.Add('https://github.com/gniziemazity/LEO/releases/download/v1.0.1/AutoHotkey_1.1.37.02.zip', 'autohotkey.zip', '');
+    DownloadPage.Add('https://github.com/gniziemazity/LEO/releases/download/v1.0.1/get-pip.py','get-pip.py','');
     DownloadPage.Show;
     try
       try
