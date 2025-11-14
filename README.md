@@ -1,6 +1,7 @@
 # LEO: Auto-typing Tool for Teaching Coding
 
 **LEO** is a teaching assistant for windows that auto-types code from a lesson plan.
+To best understand how it works, please check the [Video Tutorial](https://youtu.be/hHYjqfI19r0) and read the [Paper](https://dl.acm.org/doi/10.1145/3769994.3770055).
 
 ### 📦 Installation
 Quickest way to get LEO running is using the stable release.
